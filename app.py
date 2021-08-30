@@ -26,7 +26,7 @@ def hello():
     return "Hello Flask-Herok"
 @app.route('/hello/<string:name>')
 def hello1():
-        return("Hello")
+        return"Hello"
 
 
 
